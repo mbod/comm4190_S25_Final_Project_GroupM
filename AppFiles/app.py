@@ -20,8 +20,5 @@ async def main(message: cl.Message):
             size="large"
         )
         await cl.Message(content="", elements=[plotly_chart]).send()
-    
-    # 3. Finally send the chart code if available
-    chart_script = result.get("script")
-    if chart_script:
-        await cl.Message(content=f"```python\n{chart_script}\n```").send()
+
+        
