@@ -126,7 +126,7 @@ To obtain these keys:
 
 The application can be run in two ways:
 
-#### Option 1: Using the Streamlit Interface
+#### Option 1: Using the ChainLit Interface
 
 For the interactive web interface:
 
