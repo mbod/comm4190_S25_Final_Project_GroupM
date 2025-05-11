@@ -228,7 +228,7 @@ For the interactive web interface:
 
 ```bash
 cd AppFiles
-streamlit run app.py
+chainlit run app.py
 ```
 
 This will launch a local web server and open the application in your default web browser.
@@ -263,7 +263,6 @@ Here are some example queries to try with BioEquity Insight:
 
 - **API Rate Limits**: If you encounter errors related to API limits, wait a few minutes before trying again.
 - **Missing Data**: Some biotech stocks may have incomplete data depending on their size and reporting history.
-- **Chart Generation**: If the custom chart fails to generate, the system will fall back to a basic price chart.
 
 ---
 
